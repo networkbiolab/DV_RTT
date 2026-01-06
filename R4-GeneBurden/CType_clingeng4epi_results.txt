@@ -1,0 +1,129 @@
+DEGSbyCtype_tsv_files/list.GABDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 225
+Size of B (M): 671
+Observed overlap K: 12
+Expected overlap under null: 7.5213
+P-value (enrichment): 7.5858e-02
+Odds ratio: 1.6405
+No significant enrichment.
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 9
+Expected overlap under null: 7.5213
+P-value (enrichment): 3.3941e-01
+Odds ratio: 1.2076
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.5623 (should be ~0.5 under null)
+DEGSbyCtype_tsv_files/list.MNeuronDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 714
+Size of B (M): 671
+Observed overlap K: 38
+Expected overlap under null: 23.8676
+P-value (enrichment): 3.3667e-03
+Odds ratio: 1.6629
+Significant enrichment (p < 0.05)!
+['BCL11A', 'FGF12', 'NR4A2', 'SCN2A', 'EML1', 'NDUFS2', 'ZEB2', 'HNRNPH2', 'SNAP25', 'PAX6', 'GRIN2B', 'BAZ2B', 'GRIA1', 'TCF4', 'MYT1L', 'CNTNAP2', 'NR2F1', 'CDKL5', 'ARX', 'RELN', 'SATB2', 'CCND2', 'GRIA2', 'FRRS1L', 'FOXG1', 'SERPINI1', 'EEF1A2', 'NDUFS7', 'NDUFA11', 'AKT3', 'AUTS2', 'NDP', 'NBEA', 'MEF2C', 'GRIA3', 'KCNQ3', 'ZBTB18', 'GABBR2']
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 23
+Expected overlap under null: 23.8676
+P-value (enrichment): 6.0312e-01
+Odds ratio: 0.9611
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.5483 (should be ~0.5 under null)
+DEGSbyCtype_tsv_files/list.NblastDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 33
+Size of B (M): 671
+Observed overlap K: 1
+Expected overlap under null: 1.1031
+P-value (enrichment): 6.7466e-01
+Odds ratio: 0.9035
+No significant enrichment.
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 0
+Expected overlap under null: 1.1031
+P-value (enrichment): 1.0000e+00
+Odds ratio: inf
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.6479 (should be ~0.5 under null)
+DEGSbyCtype_tsv_files/list.NPCDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 1016
+Size of B (M): 671
+Observed overlap K: 56
+Expected overlap under null: 33.9628
+P-value (enrichment): 1.6979e-04
+Odds ratio: 1.7492
+Significant enrichment (p < 0.05)!
+['CTSD', 'ASAH1', 'TCF4', 'CSTB', 'NR2F1', 'SETBP1', 'CHD3', 'KIF5C', 'PEX2', 'CYP27A1', 'NDUFS6', 'GCSH', 'CCND2', 'TUBA1A', 'ZBTB18', 'NRXN1', 'SMC1A', 'BCL11A', 'KMT2C', 'HNRNPU', 'NDUFAF3', 'FOLR1', 'LGI1', 'GAMT', 'DCX', 'PHGDH', 'PAK3', 'NDUFA1', 'UPF3B', 'CACNA2D1', 'NDUFA2', 'NEDD4L', 'COL18A1', 'FOXG1', 'POU3F3', 'TUBB2B', 'FLNA', 'KIF1A', 'ATP1A2', 'GRN', 'PAX6', 'TUBB2A', 'TRPM3', 'TRIP12', 'MAP2K2', 'ECHS1', 'SPTBN1', 'NDUFS7', 'NPC2', 'PUF60', 'BAZ2B', 'ATP6AP2', 'NDUFS8', 'CNTNAP2', 'KCNQ3', 'PSAP']
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 42
+Expected overlap under null: 33.9628
+P-value (enrichment): 9.1361e-02
+Odds ratio: 1.2633
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.5481 (should be ~0.5 under null)
+DEGSbyCtype_tsv_files/list.RadDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 3537
+Size of B (M): 671
+Observed overlap K: 92
+Expected overlap under null: 118.2348
+P-value (enrichment): 9.9769e-01
+Odds ratio: 0.7360
+No significant enrichment.
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 117
+Expected overlap under null: 118.2348
+P-value (enrichment): 5.6698e-01
+Odds ratio: 0.9869
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.5300 (should be ~0.5 under null)
+DEGSbyCtype_tsv_files/list.SPCDEG.tsv
+Loading human GRCh38 protein-coding genes from Ensembl release 111...
+Total protein-coding genes in GRCh38 (N): 20073
+
+--- Enrichment Test for List A ---
+Size of A (n): 575
+Size of B (M): 671
+Observed overlap K: 27
+Expected overlap under null: 19.2211
+P-value (enrichment): 4.8647e-02
+Odds ratio: 1.4425
+Significant enrichment (p < 0.05)!
+['CNTNAP2', 'BPTF', 'NDUFS4', 'RERE', 'EML1', 'NR2F1', 'PDHA1', 'MYT1L', 'MACF1', 'SPTAN1', 'SMC1A', 'SATB2', 'NBEA', 'ATP6AP2', 'MEF2C', 'CSTB', 'ANK2', 'UPF3B', 'AKT3', 'ZBTB18', 'AUTS2', 'TRIP12', 'TUBB2A', 'UBE2A', 'SMS', 'NDUFA1', 'RORB']
+
+--- Enrichment Test for Random List ---
+Random A overlap with B: 19
+Expected overlap under null: 19.2211
+P-value (enrichment): 5.5399e-01
+Odds ratio: 0.9878
+As expected: no significant enrichment in random list.
+
+Mean p-value over 1000 random simulations: 0.5431 (should be ~0.5 under null)
