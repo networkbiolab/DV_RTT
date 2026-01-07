@@ -1,4 +1,4 @@
-setwd("/mnt/610a9597-0f86-4e53-9413-6c6512763c35/sofia/PP")
+setwd("[Object_dir]")
 library (Seurat)#Cargar Seurat
 library(dplyr) #Carga dlypr para cálculos
 library(cowplot)#Cargar cowplot to gráficos
